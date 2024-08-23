@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    font-family: sans-serif;
+    
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.container {
+    background: white;
+    width: 800px;
+    padding: 24px;
+}
+
+
+#task-container input {
+    padding: 12px;
+    margin-right: 12px;
+}
+
+
+#task-container button {
+    padding: 12px 18px;
+    border: none;
+    background: dodgerblue;
+    color: white;
+    border-radius: 2px;
+}
+
+#task-container button:hover {
+    background: deeppink;
+    color: white;
+    transition: 0.3s;
+    
+}
+
+#task-container button:active {
+    background-color: green;
+    color: black;
+}
+
+#filters-main-container {
+    margin-top: 20px;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+#filters {
+    width: 800px;
+}
+
+#filters input[type="search"] {
+    padding: 8px;
+}
+
+#task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: #f9f9f9;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+}
+
+.task-item.completed {
+    text-decoration: line-through;
+    color: grey;
+}
+
+.task-actions button {
+    margin-left: 5px;
+    padding: 5px;
+}
+
+#task-list-container {
+    width: 800px; 
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 24px;
+}
+
+
